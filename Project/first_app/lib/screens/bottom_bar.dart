@@ -2,6 +2,7 @@ import 'package:first_app/screens/home_screen.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'calendar_widget.dart';
+import 'package:first_app/screens/calender_page.dart';
 
 // ignore: camel_case_types
 class bottom_bar extends StatefulWidget {
@@ -16,7 +17,7 @@ class _bottom_barState extends State<bottom_bar> {
   static final List_widgetOptions =<Widget>[
     const HomeScreen(),
     const Text("Search"),
-    const EventCalendarScreen(),
+    const CalendarPage(),
     const Text("Profile"),
   ];
 

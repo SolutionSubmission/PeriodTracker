@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                         const Gap(10),
                         Text(
-                            "Check on you health",style: Styles.headlineStyle1,
+                            "Check on your health",style: Styles.headlineStyle1,
                         ),
                       ],
 
